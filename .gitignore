@@ -1,0 +1,26 @@
+
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+node_modules
+
+# builds
+build
+dist
+
+.netlify
+.idea
+.firebase
+
+
+.DS_Store
+public/build
+
+firestore-debug.log
+firebase-debug.log
+database-debug.log
+pubsub-debug.log
+**/package-lock.json
+ui-debug.log
+
+svelte-fullstack-starter-9a3b3faddda9.json
